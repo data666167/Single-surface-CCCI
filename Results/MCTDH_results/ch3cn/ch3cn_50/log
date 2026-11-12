@@ -1,0 +1,449 @@
+
+------ Host: "oz-computron" ----------Thu Jun 18 10:03:52 2026
+
+ /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50
+
+ PID =    10191
+
+--------------------------------------------------------------------------------
+****** Source code version ******
+
+Program Version :     8
+Release         :     6
+Revision        :     7
+
+Heidelberg SVN repository no.: 1573
+Checkin date: Wed, 07 Aug 2024, 15:04:50
+Compiled: Thu, 16 Jan 2025, 14:31:53 ; Host: oz-computron
+Program name: mctdh86
+
+Included surfaces: lsth
+
+Default operator-path: /home/oz_computron/MCDTH/mctdh86.7/operators
+--------------------------------------------------------------------------------
+
+###############                 NEW RUN                  ###############
+
+  CH3CN, 12D force field Hamiltonian (JCP 134,054126 (2011))
+
+########################################################################
+
+******* OPTIONS ******
+-mnd -w
+
+
+########################################################################
+
+ Reading Input Files
+
+########################################################################
+
+Task: gendvr genoper geninwf relaxation
+
+Opening operator file :/home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn/ch3cn.op
+
+***** Hamiltonian and title *****
+
+     CH3CN, 12-mode Hamiltonian operator
+
+Parameter values taken from .op file
+
+Assigning Operators From Library
+
+
+***** Paths and input files *****
+
+~.inp  file copied to input in name directory
+name      : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50
+input     : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn/ch3cn.inp
+DVR file  : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50
+.op file  : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn/ch3cn.op
+INWF file : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50
+cross-ref : /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50/restart
+
+overwrite enabled
+
+
+Timing file opened
+
+########################################################################
+
+ Creating DVR file: /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50/dvr
+                                                         Jun 18 10:03:52
+########################################################################
+
+***** Memory used in DVR basis generation *****
+
+Memory size (used / allocated) (in Mb):      0.979 /      1.781
+
+** Array dimensions **
+
+length of complex      array (used):           6          0.000 MB
+length of real         array (used):       15105          0.115 MB
+length of integer      array (used):           5          0.000 MB
+length of logical      array (used):           2          0.000 MB
+
+total array memory in mb     (used):         0.1
+
+
+
+****** Primitive Basis *********
+
+ mode     kappa    DVR    N        xi         xf         dx       p-max
+
+ x1           1    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x2           2    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x3           3    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x4           4    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x5           5    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x6           6    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x7           7    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x8           8    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x9           9    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x10         10    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x11         11    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ x12         12    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ packets     13    el    60
+
+
+********* SPF Basis ************
+
+ mode        N    n      dof's
+
+    1     8000   16       1   5   6
+    2     8000   18       2   7   8
+    3     8000   32       3   9  10
+    4     8000   88       4  11  12
+    5       60   60      13
+
+ Total grid size       : 2.457600E+17
+ Length of A-vector    : 48660480     4.866E+07
+ Length of Phi-vectors :  1235600     1.236E+06
+ Length of WF-vector   : 49896080     4.990E+07
+
+
+########################################################################
+
+ Creating OPER file: /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50/oper
+                                                         Jun 18 10:03:52
+########################################################################
+
+***** Memory used in OPERATOR generation *****
+
+Memory size (used / allocated) (in Mb):      1.747 /      2.549
+
+** Array dimensions **
+
+length of complex      array (used):       38401          0.586 MB
+length of real         array (used):       39003          0.298 MB
+length of integer      array (used):           4          0.000 MB
+length of logical      array (used):           2          0.000 MB
+
+total array memory in mb     (used):         0.9
+
+ *** RUNOPER include-array dimensions ***
+k   :  minkoe, maxkoe     325     350
+h   :  htmdim, maxhtm     400     700
+hl  :  hopdim, maxhop     399     700
+nh  :  minfac, maxfac       3      40
+np  : npesopt, maxpes       0       1
+muld: mulddim,maxmuld       1       2
+n   :    ndef, maxdef       0      85
+n   :    npar, maxpar     324     324
+n   :    nrdf, maxrdf       0       0
+** Preliminary! See op.log file for final values.
+
+***** Operator details *****
+
+DOF no.    label
+    1       x1
+    2       x2
+    3       x3
+    4       x4
+    5       x5
+    6       x6
+    7       x7
+    8       x8
+    9       x9
+   10       x10
+   11       x11
+   12       x12
+   13       packets
+
+Mode     DOFs
+   1    1=      x1  5=      x5  6=      x6
+   2    2=      x2  7=      x7  8=      x8
+   3    3=      x3  9=      x9 10=     x10
+   4    4=      x4 11=     x11 12=     x12
+   5   13= packets
+
+ feb =  0,  meb =  0,   fpb = 13,  mpb =  5,  mkoe =  6
+ leb = F,  lmult = F,  lmulpack = F,  lcap = F
+
+########################################################################
+
+Creating RESTART file
+                                                         Jun 18 10:03:52
+########################################################################
+
+
+****** Initial SPF Functions *********
+  1  x1         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  2  x2         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  3  x3         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  4  x4         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  5  x5         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  6  x6         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  7  x7         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  8  x8         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+  9  x9         gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+ 10  x10        gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+ 11  x11        gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+ 12  x12        gauss   1  p0 =   0.00000  x0 =   0.00000  dx =   1.41421
+ 13  packets  
+
+***** Length of psi vector *****
+
+Overall length of A-vector      : 48660480    4.866E+07
+Length of phi vector for mode   1:   128000
+Length of phi vector for mode   2:   144000
+Length of phi vector for mode   3:   256000
+Length of phi vector for mode   4:   704000
+Length of phi vector for mode   5:     3600
+                                  --------
+Length of wavefunction vector   : 49896080    4.990E+07
+
+workcdim   :  48660480   4.866E+07
+workrdim   :        60   6.000E+01
+workidim   :         1
+
+***** Memory used in WAVEFUNCTION generation *****
+
+Memory size (used / allocated) (in Mb):   2275.170 /   2275.736
+
+** Array dimensions **
+
+length of psi/dtpsi    array (used):    49896080        761.354 MB
+length of complex      array (used):    48731495        743.584 MB
+length of real         array (used):     1019580          7.779 MB
+length of integer      array (used):           6          0.000 MB
+length of logical      array (used):           3          0.000 MB
+
+total array memory in mb     (used):      2274.1
+
+**** Reading OPER file ****
+     CH3CN, 12-mode Hamiltonian operator
+Created on:
+------ Host: "oz-computron" ----------Thu Jun 18 10:03:52 2026
+
+
+*** PARAMETER ***
+ veigen : minedim,    maxedim       0       1
+ timing : nsub,       maxsub       41      60
+ eingabe: nreadspf,maxreadspf       0       1
+
+########################################################################
+
+ Wavefunction Relaxation
+                                                         Jun 18 10:03:54
+########################################################################
+ hopsdim  =    1013132        7.730 MB
+ dgldim   =   49896080      761.354 MB
+ pmatdim  =     247160        3.771 MB
+ hpsidim  =     704000       10.742 MB
+ hlochdim =     716132       10.927 MB
+ mfsumdim =   75000000     1144.410 MB
+ intpsidim=  145981440     2227.502 MB
+ intrdim  =    3567908       27.221 MB
+ ikrylov  =  291962880     2227.502 MB
+ workcdim =  145981440     2227.502 MB
+ workrdim =   97320960      742.501 MB
+ workidim =       4180        0.016 MB
+
+***** Memory used in wavefunction PROPAGATION *****
+
+Memory size (used / allocated) (in Mb):  13186.571 /  13187.137
+
+** Array dimensions **
+
+length of psi/dtpsi    array (used):    49896080        761.354 MB
+length of complex      array (used):   421060450       6424.877 MB
+length of real         array (used):   102613005        782.876 MB
+length of integer      array (used):        4185          0.016 MB
+length of logical      array (used):           3          0.000 MB
+length of real  Krylov array (used):   291962880       2227.502 MB
+length of real HKrylov array (used):   291962880       2227.502 MB
+
+total array memory in mb     (used):     13185.5
+
+**** Global array sizes ****
+
+Minimum value for maxdim:       5  Present value:      15
+Minimum value for maxsta:       1  Present value:       1
+Minimum value for maxsub:      41  Present value:      60
+Minimum value for maxkoe:     117  Present value:     350
+
+**** Reading OPER file ****
+     CH3CN, 12-mode Hamiltonian operator
+Created on:
+------ Host: "oz-computron" ----------Thu Jun 18 10:03:52 2026
+
+
+**** RSTINFO: Reading RESTART file ****
+File name: /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50/restart
+ CH3CN, 12D force field Hamiltonian (JCP 134,054126 (2011))
+Type : wavefunction, file-version =  8.60070
+Created on:
+------ Host: "oz-computron" ----------Thu Jun 18 10:03:53 2026
+
+
+***** Calculation type *****
+
+Wavefunction relaxation.
+relaxation=0 olsen precon=1600
+Using Schroedinger picture.
+Propagating 60 wavepackets, using single-set formalism.
+
+***** Integrator algorithm *****
+
+Mean-fields etc. are kept constant.
+CMF stepsize is adaptive (error control for phi only).
+CMF accuracy: 6.00E-03,      Initial stepsize:  2.000 fs
+For SPFs, For spfs, RK8 integrator
+accuracy: 1.00E-09, initial step 0.00E+00 fs
+For A-coefficients, DAV "integrator", restriced-real version
+order: 359,  accuracy: 2.00E-08,  Block-DAV with  60 packets.
+The working equation for the spfs reads:
+i dphi/dt = (1-P)(h + ...) phi
+Using approximate natural orbitals.(CMF)
+Using operator symmetries
+
+***** Numerical parameters *****
+
+Machine precision:                                    2.220E-16
+Parameter used to regularise inverse density matrix:  1.000E-10
+Parameter used to regularise SVD singular values   :  0.000E+00
+Parameter used to regularise natural orbital matrix:  1.000E-08
+
+******** Flags  ********
+
+
+***** Output files *****
+
+Stop        file created
+Output      file opened
+Check       file opened
+Gridpop     file opened
+Speed       file opened
+Steps       file opened
+Update      file opened
+rlx_info    file opened
+
+***** AUTOBLOCK *****
+
+******  A-coefficients generated by autoblock  ******
+        J   E-diag [au]    j1 j2 j3 j4 j5 ...
+        1   0.045598422     1  1  1  1  1
+   838657   0.047257916     1  1  1  4  2
+  1640449   0.047257916     1  1  1  3  3
+  2506753   0.048924738     1  1  1  9  4
+  3326977   0.048928402     1  1  1 10  5
+  4119553   0.048928402     1  1  1  8  6
+  4875265   0.049810241     1  1  1  2  7
+  5677921   0.050406153     1  1  4  1  8
+  6488641   0.050406153     1  1  3  1  9
+  7464961   0.050602553     1  1  1 19 10
+  8266753   0.050602553     1  1  1 18 11
+  9096193   0.050609881     1  1  1 20 12
+  9879553   0.050609881     1  1  1 17 13
+ 10598401   0.051469735     1  1  1  7 14
+ 11400193   0.051469735     1  1  1  6 15
+ 12165409   0.051967552     1  1  2  1 16
+ 13004641   0.052065647     1  1  4  4 17
+ 13806433   0.052065647     1  1  4  3 18
+ 14626369   0.052065647     1  1  3  4 19
+ 15428161   0.052065647     1  1  3  3 20
+ 16515073   0.052287696     1  1  1 33 21
+ 17316865   0.052291360     1  1  1 32 22
+ 18146305   0.052291360     1  1  1 34 23
+ 18929665   0.052302353     1  1  1 31 24
+ 19777537   0.052302353     1  1  1 35 25
+ 20275233   0.052401125     1  3  1  1 26
+ 21086257   0.052401125     1  4  1  1 27
+ 22026241   0.053136557     1  1  1 15 28
+ 22828033   0.053140222     1  1  1 14 29
+ 23657473   0.053140222     1  1  1 16 30
+ 24358177   0.053627046     1  1  2  4 31
+ 25159969   0.053627046     1  1  2  3 32
+ 26026849   0.053732469     1  1  4  9 33
+ 26837569   0.053732469     1  1  3  9 34
+ 27658081   0.053736133     1  1  4 10 35
+ 28450657   0.053736133     1  1  4  8 36
+ 29279809   0.053736133     1  1  3 10 37
+ 30072385   0.053736133     1  1  3  8 38
+ 31297537   0.053983832     1  1  1 53 39
+ 32117761   0.053983832     1  1  1 54 40
+ 32910337   0.053991161     1  1  1 52 41
+ 33748993   0.053991161     1  1  1 55 42
+ 34523137   0.054005817     1  1  1 51 43
+ 35380225   0.054005817     1  1  1 56 44
+ 35721217   0.054037951     1  1  1  5 45
+ 36523041   0.054060619     1  3  1  4 46
+ 37334065   0.054060619     1  4  1  4 47
+ 38135841   0.054060619     1  3  1  3 48
+ 38946865   0.054060619     1  4  1  3 49
+ 39749473   0.054617972     1  1  4  2 50
+ 40560193   0.054617972     1  1  3  2 51
+ 41610241   0.054814372     1  1  1 28 52
+ 42430465   0.054814372     1  1  1 29 53
+ 43250689   0.054821701     1  1  1 30 54
+ 44034049   0.054821701     1  1  1 27 55
+ 44607457   0.055200386     1  1  8  1 56
+ 45419041   0.055200386     1  1 10  1 57
+ 46229761   0.055204885     1  1  9  1 58
+ 47112481   0.055293868     1  1  2  9 59
+ 47932705   0.055297532     1  1  2 10 60
+
+ time[fs]       56.000
+
+***** Integration method *****
+
+Integration method used for the MCTDH-coefficients:
+Block-Davidson "integrator" (restricted-real)
+Maximum order employed:   359
+Maximum order allowed:    359
+Dimension of PreConditioner:   1600
+
+Integration method used for the single-particle functions:
+Runge-Kutta order 8 (RK8) from ODESIM
+
+Total number of RK8 steps:          1751
+Number of accepted RK8 steps:       1624
+Number of rejected RK8 steps:        127
+
+Number of successful Davidson steps:     9
+
+***** Update times *****
+
+Number of successful update steps:     8
+Number of failed update steps:         0
+Mean update time (in fs):        7.00000
+Standard deviation (in fs):      2.00000
+
+normthermal = 0.000000000E+00
+
+***** God's final message *****
+
+Program terminated normally.
+
+***** Overall Timing *****
+
+Total cpu time     [s] :      23792.16
+Total system time  [s] :          8.98
+Wall time          [s] :      23804.29
+total time/wall time   :          1.00
+Total time     [h:m:s] :    6 : 36 : 41.14
+Wall  time     [h:m:s] :    6 : 36 : 44.29
+
+------ Host: "oz-computron" ----------Thu Jun 18 16:40:37 2026
+

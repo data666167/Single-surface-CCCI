@@ -1,0 +1,78 @@
+#######################################################################
+###   CH3CN, 12D, Time Propagation (moderate 5 fs test)             ###
+#######################################################################
+
+RUN-SECTION
+  propagation
+  name   = /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch3cn_A4_d0
+  tfinal = 100.0          tout = 0.1   tpsi = 5.0
+  steps  gridpop auto
+  title  = CH3CN, 12D force field Hamiltonian (JCP 134,054126 (2011))
+end-run-section
+
+OPERATOR-SECTION
+opname = ch3cn
+end-operator-section
+
+# SPF basis has been reduced for a simple test
+SPF-BASIS-SECTION
+   x1, x5, x6  = 8
+   x2, x7, x8  = 10
+   x3, x9, x10 = 15
+   x4, x11,x12 = 25
+end-spf-basis-section
+
+PRIMITIVE-BASIS-SECTION
+    x1    HO   20   0.0   1.0   1.0
+    x2    HO   20   0.0   1.0   1.0
+    x3    HO   20   0.0   1.0   1.0
+    x4    HO   20   0.0   1.0   1.0
+    x5    HO   20   0.0   1.0   1.0
+    x6    HO   20   0.0   1.0   1.0
+    x7    HO   20   0.0   1.0   1.0
+    x8    HO   20   0.0   1.0   1.0
+    x9    HO   20   0.0   1.0   1.0
+    x10   HO   20   0.0   1.0   1.0
+    x11   HO   20   0.0   1.0   1.0
+    x12   HO   20   0.0   1.0   1.0
+end-primitive-basis-section
+
+INTEGRATOR-SECTION
+   CMF/var = 0.5,  1.0d-05
+   BS/spf  =  7 ,  1.0d-05 ,  2.5d-04
+   SIL/A   =  5 ,  1.0d-05
+end-integrator-section
+
+INIT_WF-SECTION
+  build
+     x1   HO   0.0    0.0    1.00
+     x2   HO   0.0    0.0    1.00
+     x3   HO   0.0    0.0    1.00
+     x4   HO   0.0    0.0    1.00
+     x5   HO   0.0    0.0    1.00
+     x6   HO   0.0    0.0    1.00
+     x7   HO   0.0    0.0    1.00
+     x8   HO   0.0    0.0    1.00
+     x9   HO   0.0    0.0    1.00
+     x10  HO   0.0    0.0    1.00
+     x11  HO   0.0    0.0    1.00
+     x12  HO   0.0    0.0    1.00
+  end-build
+  autoblock
+end-init_wf-section
+
+ALLOC-SECTION
+   maxkoe=350
+   maxhtm=700
+   maxhop=700
+   maxfac=40
+   maxdef=85
+   maxmuld=1
+   maxLMR=1
+   maxsub=60
+   maxedim=1
+   maxreadspf=1
+   maxnhtmshift=1
+end-alloc-section
+
+end-input

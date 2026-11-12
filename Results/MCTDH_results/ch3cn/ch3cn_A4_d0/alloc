@@ -1,0 +1,30 @@
+
+# ------ Host: "oz-computron" ----------Tue May  5 09:44:49 2026
+
+# /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch3cn_A4_d0
+
+maxdim    =      14
+maxsta    =       1
+maxtape   =       0
+maxdepth  =       0
+maxham    =       1
+maxpar    =     324
+maxhpar   =       8
+maxpes    =       1
+maxrdf    =       0
+maxkoe    =     350,    default =    4000
+maxhtm    =     700,    default =    4000
+maxhop    =     700,    default =    4000
+maxfac    =      40,    default =     200
+maxdef    =      85,    default =     240
+maxmuld   =       2,    default =      10
+maxsub    =      60,    default =     100
+maxLMR    =       1,    default =      20
+maxedim   =       1,    default =      80
+maxreadspf=       1,    default =      10
+maxnhtmshift =    1,    default =      10
+end-alloc
+
+# Run "phelp <parametername>" to see the meaning of the parameter.
+# Or see HTML docu: Input Documentation/Alloc-Section
+

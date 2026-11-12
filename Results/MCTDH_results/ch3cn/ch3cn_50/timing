@@ -1,0 +1,29 @@
+ Subroutine           Calls N         cpu/N             cpu       %cpu      real/N          real  cpu/real
+
+ Funk3                     10      1172.241       11722.4100      49.3
+ MFields                   10      1154.112       11541.1200      48.5
+ Funka                     53       173.385        9189.3800      38.6
+ DAV                        9       896.230        8066.0700      33.9
+ RK8                       64        10.869         695.6300       2.9
+ Funkphi  4              1418         0.250         354.0100       1.5
+ Funkphi  1             14724         0.013         188.7900       0.8
+ Density                   20         4.799          95.9900       0.4
+ summf                     10         7.996          79.9600       0.3
+ Funkphi  3              1723         0.039          67.3500       0.3
+ trafo                     10         4.992          49.9200       0.2
+ Funkphi  2              3024         0.015          46.0500       0.2
+ precon                     9         4.203          37.8300       0.2
+ Funk2                     19         0.951          18.0600       0.1
+ Output                    10         0.441           4.4100       0.0
+ Funk1                      8         0.330           2.6400       0.0
+ Startup                    1         1.450           1.4500       0.0
+ initWF                     1         1.400           1.4000       0.0
+ genOPER                    1         0.050           0.0500       0.0
+
+Total (usr,sys,cpu)   23792.09     8.13   23800.22   (  6h : 36m : 40.22s)
+
+ ---------------------------------------------------------------------------
+ ------ Host: "oz-computron" ----------Thu Jun 18 16:40:37 2026
+
+ /home/oz_computron/Desktop/chapter_2_results/MCTDH_M5/extraction_chamber/MCTDH_eigenvals/ch3cn_50
+  CH3CN, 12D force field Hamiltonian (JCP 134,054126 (2011))                   

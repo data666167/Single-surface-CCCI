@@ -1,0 +1,73 @@
+#######################################################################
+### CH2NH ev M10 beta=-2 : 9-mode + 1 el, multi-set                 ###
+#######################################################################
+
+RUN-SECTION
+propagation
+name = /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_d05
+    tfinal = 100         tout = 0.1   tpsi = 5.0
+    steps  gridpop auto
+    title  = CH2NH, 9D force field Hamiltonian (JCP 134,054126 (2011))
+end-run-section
+
+OPERATOR-SECTION
+oppath = /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/op_files
+opname = ch2nh_evp_d05
+end-operator-section
+
+SPF-BASIS-SECTION
+  v01, v02, v03 = 16   
+  v04, v05, v06 = 12    
+  v07, v08, v09 = 10     
+end-spf-basis-section
+
+PRIMITIVE-BASIS-SECTION
+        v01 HO  20  0.0 1.0 1.0
+        v02 HO  20  0.0 1.0 1.0
+        v03 HO  20  0.0 1.0 1.0
+        v04 HO  20  0.0 1.0 1.0
+        v05 HO  20  0.0 1.0 1.0
+        v06 HO  20  0.0 1.0 1.0
+        v07 HO  20  0.0 1.0 1.0
+        v08 HO  20  0.0 1.0 1.0
+        v09 HO  20  0.0 1.0 1.0
+end-primitive-basis-section
+
+INTEGRATOR-SECTION
+CMF/var = 0.5,  1.0d-05
+BS/spf  =  7 ,  1.0d-05 ,  2.5d-04
+SIL/A   =  5 ,  1.0d-05
+end-integrator-section
+
+
+INIT_WF-SECTION
+build
+        v01 HO  0.5 0.0 1.0 1.0
+        v02 HO  0.5 0.0 1.0 1.0
+        v03 HO  0.5 0.0 1.0 1.0
+        v04 HO  0.5 0.0 1.0 1.0
+        v05 HO  0.5 0.0 1.0 1.0
+        v06 HO  0.5 0.0 1.0 1.0
+        v07 HO  0.5 0.0 1.0 1.0
+        v08 HO  0.5 0.0 1.0 1.0
+        v09 HO  0.5 0.0 1.0 1.0
+end-build
+autoblock
+end-init_wf-section
+
+ALLOC-SECTION
+   maxkoe=350
+   maxhtm=700
+   maxhop=700
+   maxfac=40
+   maxdef=85
+   maxmuld=1
+   maxLMR=1
+   maxsub=60
+   maxedim=1
+   maxreadspf=1
+   maxnhtmshift=1
+end-alloc-section
+
+
+end-input

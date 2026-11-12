@@ -1,0 +1,130 @@
+02 08:22:08   [INFO] _check_truncation_info: 
+The Hamiltonian provided contains at most 4 order terms
+Z truncation level is :4
+T truncation level is :1
+
+02 08:22:08   [INFO] __init__: Electronic TDM:(1, 1)
+02 08:22:08   [INFO] __init__: Magnetic TDM:(1, 1)
+02 08:22:08   [INFO] _initialize_hamiltonian: parameter of the Hamiltonian are entered properly!
+02 08:22:08   [INFO] _initialize_hamiltonian: zero point energy: 1.22811535 ev
+02 08:22:08   [INFO] rk45_integration_oz: We are going to preform a RK4(5) integration with: (t_init=0.0 t_final=200.0 density=1.0 nof_points=10000 debug_flag=False)
+02 08:22:08   [INFO] rk45_integration_oz: Raw step size (unitless):  (0.02)
+Real step size (eV/fs):    (0.03038534895992255)
+02 08:23:30   [INFO] _print_integration_progress: On integration step 3666     at   20.0516fs
+C(t)(ABS) = 0.1940+0.2413j
+
+02 08:23:30   [INFO] _print_integration_progress: max constant T[0]  amplitude: 37.2679238407275
+max single   T[1]  amplitude: 0.3868902986893487
+
+02 08:23:30   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.9727606050877063
+max single   z_i   amplitude: 0.10448980743777302
+max double   z_ij  amplitude: 0.08017928541062558
+max triple   z_ijk amplitude: 0.061658746733647816
+max qaurtuple   z_ijkl amplitude: 0.027782502209305202
+
+02 08:24:50   [INFO] _print_integration_progress: On integration step 7313     at   40.0578fs
+C(t)(ABS) = 0.0090+0.1889j
+
+02 08:24:50   [INFO] _print_integration_progress: max constant T[0]  amplitude: 74.465055886722
+max single   T[1]  amplitude: 0.40358073401205696
+
+02 08:24:50   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.9446321852494569
+max single   z_i   amplitude: 0.19073100156919523
+max double   z_ij  amplitude: 0.10105016155918943
+max triple   z_ijk amplitude: 0.051458627253469585
+max qaurtuple   z_ijkl amplitude: 0.03398171483829593
+
+02 08:26:11   [INFO] _print_integration_progress: On integration step 10958    at   60.0524fs
+C(t)(ABS) = -0.1287+0.1095j
+
+02 08:26:11   [INFO] _print_integration_progress: max constant T[0]  amplitude: 111.6205384019264
+max single   T[1]  amplitude: 0.4167018630463209
+
+02 08:26:11   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.9028595854715967
+max single   z_i   amplitude: 0.24918842524305715
+max double   z_ij  amplitude: 0.15432316519631686
+max triple   z_ijk amplitude: 0.059556444365612284
+max qaurtuple   z_ijkl amplitude: 0.0392554300477665
+
+02 08:27:33   [INFO] _print_integration_progress: On integration step 14604    at   80.0586fs
+C(t)(ABS) = -0.0983+0.1145j
+
+02 08:27:33   [INFO] _print_integration_progress: max constant T[0]  amplitude: 148.75582537991863
+max single   T[1]  amplitude: 0.40670958616137426
+
+02 08:27:33   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.8710198358586466
+max single   z_i   amplitude: 0.29254940615788244
+max double   z_ij  amplitude: 0.1862738447698795
+max triple   z_ijk amplitude: 0.06243534059237827
+max qaurtuple   z_ijkl amplitude: 0.05012976993359029
+
+02 08:28:53   [INFO] _print_integration_progress: On integration step 18251    at  100.0588fs
+C(t)(ABS) = -0.3224+0.1864j
+
+02 08:28:53   [INFO] _print_integration_progress: max constant T[0]  amplitude: 185.99175861349408
+max single   T[1]  amplitude: 0.39858305396152816
+
+02 08:28:53   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.8089776703708964
+max single   z_i   amplitude: 0.33459079208901193
+max double   z_ij  amplitude: 0.2199968762728608
+max triple   z_ijk amplitude: 0.15340229979814526
+max qaurtuple   z_ijkl amplitude: 0.07721764435494048
+
+02 08:30:14   [INFO] _print_integration_progress: On integration step 21897    at  120.0549fs
+C(t)(ABS) = -0.3000-0.0864j
+
+02 08:30:14   [INFO] _print_integration_progress: max constant T[0]  amplitude: 223.11839722383593
+max single   T[1]  amplitude: 0.4075493715301803
+
+02 08:30:14   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.7604368277241461
+max single   z_i   amplitude: 0.3486769664730808
+max double   z_ij  amplitude: 0.23288674858454753
+max triple   z_ijk amplitude: 0.15704765374006208
+max qaurtuple   z_ijkl amplitude: 0.0618063725360035
+
+02 08:31:35   [INFO] _print_integration_progress: On integration step 25545    at  140.0646fs
+C(t)(ABS) = -0.0782-0.1832j
+
+02 08:31:35   [INFO] _print_integration_progress: max constant T[0]  amplitude: 260.335664831297
+max single   T[1]  amplitude: 0.39591252460620835
+
+02 08:31:35   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.7165201831540418
+max single   z_i   amplitude: 0.3221186956417214
+max double   z_ij  amplitude: 0.29103789645791905
+max triple   z_ijk amplitude: 0.18309233899212302
+max qaurtuple   z_ijkl amplitude: 0.07615979034734471
+
+02 08:32:56   [INFO] _print_integration_progress: On integration step 29190    at  160.0533fs
+C(t)(ABS) = 0.2427-0.2411j
+
+02 08:32:56   [INFO] _print_integration_progress: max constant T[0]  amplitude: 297.4548127615021
+max single   T[1]  amplitude: 0.39725625546317966
+
+02 08:32:56   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.7089171967604475
+max single   z_i   amplitude: 0.2961188924252129
+max double   z_ij  amplitude: 0.32346378608098336
+max triple   z_ijk amplitude: 0.1927218189518068
+max qaurtuple   z_ijkl amplitude: 0.06160343939128785
+
+02 08:34:17   [INFO] _print_integration_progress: On integration step 32837    at  180.0595fs
+C(t)(ABS) = 0.2630-0.0785j
+
+02 08:34:17   [INFO] _print_integration_progress: max constant T[0]  amplitude: 334.63288030282723
+max single   T[1]  amplitude: 0.4071482528702634
+
+02 08:34:17   [INFO] _print_integration_progress: max constant z_0   amplitude: 0.6776436855987664
+max single   z_i   amplitude: 0.2906933753379994
+max double   z_ij  amplitude: 0.3441001920242966
+max triple   z_ijk amplitude: 0.22777425795943176
+max qaurtuple   z_ijkl amplitude: 0.08006685958155679
+
+02 08:35:37   [INFO] _postprocess_rk45_integration_results: RK45 preformed 36482 integration calculations.
+02 08:35:37   [INFO] _postprocess_rk45_integration_results: RK45 accepted  3041 of those as solutions to the ode's.
+/home/oz_computron/Desktop/Research_idea/single_surface/Testing
+Very simple timing:     809.4513
+output_path_ABS ../Results/CC_results/reproduce_cc_for_mctdh/model_ch3cn_ev_rank_4_Z_4_time_200_dist_0.5
+----------------------------------------
+Interpolating ABS
+----------------------------------------
+
+complete

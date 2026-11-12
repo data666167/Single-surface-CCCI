@@ -1,0 +1,27 @@
+ Subroutine           Calls N         cpu/N             cpu       %cpu      real/N          real  cpu/real
+
+ BS                      9818         0.353        3466.5800      81.0
+ Funkphi  1             85376         0.027        2333.4100      54.5
+ Funkphi  2             30555         0.018         545.7700      12.8
+ Funkphi  3             34083         0.014         462.9400      10.8
+ summf                   2001         0.189         378.0200       8.8
+ Funk0                   1000         0.258         257.9600       6.0
+ Funk3                   1001         0.226         226.6300       5.3
+ Funk1                   2000         0.060         120.2400       2.8
+ Funk2                   1001         0.099          99.4500       2.3
+ Output                  1001         0.057          56.8900       1.3
+ Funka                   8488         0.002          17.5200       0.4
+ SIL                     3000         0.005          16.3000       0.4
+ MFields                 2001         0.004           8.2100       0.2
+ Density                 2001         0.000           0.3400       0.0
+ Startup                    1         0.050           0.0500       0.0
+ genOPER                    1         0.030           0.0300       0.0
+ initWF                     1         0.020           0.0200       0.0
+
+Total (usr,sys,cpu)    4265.48    12.19    4277.67   (  1h : 11m : 17.67s)
+
+ ---------------------------------------------------------------------------
+ ------ Host: "oz-computron" ----------Mon May  4 19:23:56 2026
+
+ /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_d5A4
+  CH2NH, 9D force field Hamiltonian (JCP 134,054126 (2011))                    

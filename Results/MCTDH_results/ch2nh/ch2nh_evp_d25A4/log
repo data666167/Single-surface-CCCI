@@ -1,0 +1,371 @@
+
+------ Host: "oz-computron" ----------Mon May  4 15:21:53 2026
+
+ /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4
+
+ PID =     8236
+
+--------------------------------------------------------------------------------
+****** Source code version ******
+
+Program Version :     8
+Release         :     6
+Revision        :     7
+
+Heidelberg SVN repository no.: 1573
+Checkin date: Wed, 07 Aug 2024, 15:04:50
+Compiled: Thu, 16 Jan 2025, 14:31:53 ; Host: oz-computron
+Program name: mctdh86
+
+Included surfaces: lsth
+
+Default operator-path: /home/oz_computron/MCDTH/mctdh86.7/operators
+--------------------------------------------------------------------------------
+
+###############                 NEW RUN                  ###############
+
+  CH2NH, 9D force field Hamiltonian (JCP 134,054126 (2011))
+
+########################################################################
+
+******* OPTIONS ******
+-mnd -w
+
+
+########################################################################
+
+ Reading Input Files
+
+########################################################################
+
+Task: gendvr genoper geninwf propagation
+
+Opening operator file :/home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/op_files/ch2nh_evp_d25.op
+
+***** Hamiltonian and title *****
+
+template title
+
+Parameter values taken from .op file
+
+Assigning Operators From Library
+
+
+***** Paths and input files *****
+
+~.inp  file copied to input in name directory
+name      : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4
+input     : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/inp_files/ch2nh_A4_d25.inp
+DVR file  : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4
+.op file  : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/op_files/ch2nh_evp_d25.op
+INWF file : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4
+cross-ref : /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4/restart
+
+overwrite enabled
+
+### WARNING ###
+updatetime must be smaller than tout.
+tout       =     0.100000
+updatetime =     0.500000
+Setting  updatetime equal to tout.
+
+WARNING in subroutine Chkprop:
+Symmetric Hamiltonian and real initial state assumed when calculating
+autocorrelation function. Use "cross" if these conditions are not fulfilled.
+------------------------------------
+
+Timing file opened
+
+########################################################################
+
+ Creating DVR file: /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4/dvr
+                                                         May  4 15:21:53
+########################################################################
+
+***** Memory used in DVR basis generation *****
+
+Memory size (used / allocated) (in Mb):      0.949 /      1.560
+
+** Array dimensions **
+
+length of complex      array (used):           6          0.000 MB
+length of real         array (used):       11385          0.087 MB
+length of integer      array (used):           5          0.000 MB
+length of logical      array (used):           2          0.000 MB
+
+total array memory in mb     (used):         0.1
+
+
+
+****** Primitive Basis *********
+
+ mode     kappa    DVR    N        xi         xf         dx       p-max
+
+ v01          1    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v02          2    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v03          3    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v04          4    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v05          5    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v06          6    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v07          7    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v08          8    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+ v09          9    HO    20     -5.387      5.387   0.567103      5.387   1.0000
+
+
+********* SPF Basis ************
+
+ mode        N    n      dof's
+
+    1     8000   16       1   2   3
+    2     8000   12       4   5   6
+    3     8000   10       7   8   9
+
+ Total grid size       : 5.120000E+11
+ Length of A-vector    :     1920     1.920E+03
+ Length of Phi-vectors :   304000     3.040E+05
+ Length of WF-vector   :   305920     3.059E+05
+
+
+########################################################################
+
+ Creating OPER file: /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4/oper
+                                                         May  4 15:21:53
+########################################################################
+
+***** Memory used in OPERATOR generation *****
+
+Memory size (used / allocated) (in Mb):      1.521 /      2.132
+
+** Array dimensions **
+
+length of complex      array (used):       25601          0.391 MB
+length of real         array (used):       35163          0.268 MB
+length of integer      array (used):           4          0.000 MB
+length of logical      array (used):           2          0.000 MB
+
+total array memory in mb     (used):         0.7
+
+ *** RUNOPER include-array dimensions ***
+k   :  minkoe, maxkoe     170     350
+h   :  htmdim, maxhtm     224     700
+hl  :  hopdim, maxhop     223     700
+nh  :  minfac, maxfac       3      40
+np  : npesopt, maxpes       0       1
+muld: mulddim,maxmuld       1       2
+n   :    ndef, maxdef       0      85
+n   :    npar, maxpar     160     160
+n   :    nrdf, maxrdf       0       0
+** Preliminary! See op.log file for final values.
+
+***** Operator details *****
+
+DOF no.    label
+    1       v01
+    2       v02
+    3       v03
+    4       v04
+    5       v05
+    6       v06
+    7       v07
+    8       v08
+    9       v09
+
+Mode     DOFs
+   1    1=     v01  2=     v02  3=     v03
+   2    4=     v04  5=     v05  6=     v06
+   3    7=     v07  8=     v08  9=     v09
+
+ feb =  0,  meb =  0,   fpb =  0,  mpb =  0,  mkoe =  4
+ leb = F,  lmult = F,  lmulpack = F,  lcap = F
+
+########################################################################
+
+Creating RESTART file
+                                                         May  4 15:21:53
+########################################################################
+
+
+****** Initial SPF Functions *********
+  1  v01        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  2  v02        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  3  v03        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  4  v04        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  5  v05        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  6  v06        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  7  v07        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  8  v08        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+  9  v09        gauss   1  p0 =   0.00000  x0 =   0.70710  dx =   1.41421
+
+***** Length of psi vector *****
+
+Overall length of A-vector      :     1920    1.920E+03
+Length of phi vector for mode   1:   128000
+Length of phi vector for mode   2:    96000
+Length of phi vector for mode   3:    80000
+                                  --------
+Length of wavefunction vector   :   305920    3.059E+05
+
+workcdim   :      1920   1.920E+03
+workrdim   :        20   2.000E+01
+workidim   :         1
+
+***** Memory used in WAVEFUNCTION generation *****
+
+Memory size (used / allocated) (in Mb):     13.866 /     14.435
+
+** Array dimensions **
+
+length of psi/dtpsi    array (used):      305920          4.668 MB
+length of complex      array (used):       29751          0.454 MB
+length of real         array (used):      415813          3.172 MB
+length of integer      array (used):           6          0.000 MB
+length of logical      array (used):           3          0.000 MB
+
+total array memory in mb     (used):        13.0
+
+**** Reading OPER file ****
+template title
+Created on:
+------ Host: "oz-computron" ----------Mon May  4 15:21:53 2026
+
+
+*** PARAMETER ***
+ veigen : minedim,    maxedim       0       1
+ timing : nsub,       maxsub       39      60
+ eingabe: nreadspf,maxreadspf       0       1
+
+########################################################################
+
+ Propagating Wavefunction
+                                                         May  4 15:21:53
+########################################################################
+ hopsdim  =     411781        3.142 MB
+ dgldim   =     305920        4.668 MB
+ pmatdim  =       8400        0.128 MB
+ hpsidim  =     128000        1.953 MB
+ hlochdim =       9900        0.151 MB
+ mfsumdim =    4000000       61.035 MB
+ intpsidim=    1152000       17.578 MB
+ workcdim =     512000        7.813 MB
+ workrdim =         48        0.000 MB
+
+***** Memory used in wavefunction PROPAGATION *****
+
+Memory size (used / allocated) (in Mb):    116.438 /    117.007
+
+** Array dimensions **
+
+length of psi/dtpsi    array (used):      305920          4.668 MB
+length of complex      array (used):     6751714        103.023 MB
+length of real         array (used):      416243          3.176 MB
+length of integer      array (used):           6          0.000 MB
+length of logical      array (used):           3          0.000 MB
+
+total array memory in mb     (used):       115.5
+
+**** Global array sizes ****
+
+Minimum value for maxdim:       3  Present value:      11
+Minimum value for maxsta:       1  Present value:       1
+Minimum value for maxsub:      39  Present value:      60
+Minimum value for maxkoe:      28  Present value:     350
+
+**** Reading OPER file ****
+template title
+Created on:
+------ Host: "oz-computron" ----------Mon May  4 15:21:53 2026
+
+
+**** RSTINFO: Reading RESTART file ****
+File name: /home/oz_computron/Desktop/Research_idea/vibrational/MCTDH_files/results_dir/ch2nh_evp_A4/restart
+ CH2NH, 9D force field Hamiltonian (JCP 134,054126 (2011))
+Type : wavefunction, file-version =  8.60070
+Created on:
+------ Host: "oz-computron" ----------Mon May  4 15:21:53 2026
+
+
+***** Calculation type *****
+
+Wavefunction propagation.
+Using Schroedinger picture.
+
+***** Integrator algorithm *****
+
+Mean-fields etc. are kept constant.
+CMF stepsize is adaptive (error control for A and phi).
+CMF accuracy: 1.00E-05,      Initial stepsize:  0.100 fs
+For SPFs, For spfs, BS integrator
+order:  7,  accuracy: 1.00E-05,  initial step: 2.50E-04 fs
+For A-coefficients, SIL integrator
+order:   5,  accuracy: 1.00E-05,  initial step:  0.250 fs
+error criterion: standard
+Standard-SIL (real) used.
+The working equation for the spfs reads:
+i dphi/dt = (1-P)(h + ...) phi
+Using standard orbitals.
+Using operator symmetries
+
+***** Numerical parameters *****
+
+Machine precision:                                    2.220E-16
+Parameter used to regularise inverse density matrix:  1.000E-08
+Parameter used to regularise SVD singular values   :  0.000E+00
+Parameter used to regularise natural orbital matrix:  1.000E-08
+
+******** Flags  ********
+
+
+***** Output files *****
+
+Stop        file created
+Output      file opened
+Check       file opened
+Gridpop     file opened
+Speed       file opened
+Auto        file opened  (once)
+Steps       file opened
+Update      file opened
+ time[fs]      100.000
+
+***** Integration method *****
+
+Integration method used for the MCTDH-coefficients:
+Short iterative Lanczos (real) with variable order.
+Maximum order employed:   5
+Maximum order allowed:    5
+
+Integration method used for the single-particle functions:
+Bulirsch-Stoer (BS) with polynomial extrapolation.
+Optimal column:  7
+
+Number of succesful large BS steps:             9524
+Number of failed but fixed large BS steps:         0
+Total number of small BS steps:               149018
+
+Number of successful Lanczos steps:            3000
+Number of failed but fixed Lanczos steps:         0
+
+***** Update times *****
+
+Number of successful update steps:  1000
+Number of failed update steps:         0
+Mean update time (in fs):        0.10000
+Standard deviation (in fs):      0.00000
+
+normthermal = 0.000000000E+00
+
+***** God's final message *****
+
+Program terminated normally.
+
+***** Overall Timing *****
+
+Total cpu time     [s] :       3613.00
+Total system time  [s] :          7.99
+Wall time          [s] :       4184.52
+total time/wall time   :          0.87
+Total time     [h:m:s] :    1 :  0 : 20.99
+Wall  time     [h:m:s] :    1 :  9 : 44.52
+
+------ Host: "oz-computron" ----------Mon May  4 16:31:38 2026
+
